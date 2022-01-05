@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="guess_option1">2</integer>
+    <integer name="guess_option2">4</integer>
+    <integer name="guess_option3">6</integer>
+    <integer name="guess_option4">8</integer>
+</resources>
