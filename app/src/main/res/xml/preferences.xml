@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/guesses_list"
+        android:entryValues="@array/guesses_list"
+        android:key="pref_numChoices"
+        android:title="@string/num_choices"
+        android:summary="@string/num_choices_description"
+        android:persistent="true"
+        android:defaultValue="@integer/guess_option2"/>
+
+    <MultiSelectListPreference
+        android:entries="@array/regions_list_for_settings"
+        android:entryValues="@array/regions_list"
+        android:key="pref_regionsToInclude"
+        android:title="@string/regions"
+        android:summary="@string/regions_description"
+        android:persistent="true"
+        android:defaultValue="@array/regions_list"/>
+</androidx.preference.PreferenceScreen>
